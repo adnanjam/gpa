@@ -4,7 +4,7 @@ import webbrowser
 from bs4 import BeautifulSoup
 import os
 
-username = input("Ange ditt kth användarnamn: ")
+username = input("Ange ditt användarnamn: ")
 password = getpass.getpass(prompt="Ange ditt lösenord: ")
 
 score_dict = {"A": 5, "B": 4.5, "C": 4, "D": 3.5, "E": 3, "F": 0, "P": 3}
