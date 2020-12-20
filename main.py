@@ -37,7 +37,7 @@ for r in rows:
     score = tds[3].text.strip()
     eligible = tds[5].text.strip()
 
-    if(eligible == "Ja" and score != "-"):
+    if(eligible == "Ja" and score != "-" and score != "P"):
         sum_grade += int(score_dict[score]) * hp
         sum_points += hp
 
